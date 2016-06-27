@@ -1,6 +1,6 @@
 # Job Score Plugin for Craft CMS
 
-Sync Job Score postings to your Craft CMS
+Sync Jobscore jobs to your Craft CMS pages
 
 
 ## Installation
