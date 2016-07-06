@@ -77,9 +77,9 @@ class JobScoreController extends BaseController
         $jobEntry->jobDateOpened = $job->opened_date;
         $jobEntry->jobDateCreate = $job->created_on;
 
+        craft()->jobScore->saveJob($jobEntry);
       }
 
-      craft()->jobScore->saveJob($jobEntry);
 
     } else {
       craft()->userSession->setError(Craft::t('You must set Organization Name in plugin settings.'));
